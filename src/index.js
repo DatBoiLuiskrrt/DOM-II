@@ -34,3 +34,8 @@ const image = document.querySelector(".intro img");
 image.onclick = function () {
   image.style.display = "none";
 };
+
+const secondImage = document.querySelector(".img-content img");
+secondImage.ondblclick = () => {
+  secondImage.style.border = "1px solid red";
+};
