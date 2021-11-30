@@ -39,3 +39,8 @@ const secondImage = document.querySelector(".img-content img");
 secondImage.ondblclick = () => {
   secondImage.style.border = "1px solid red";
 };
+
+const foot = document.querySelector(".footer");
+foot.onclick = () => {
+  foot.style.display = "none";
+};
