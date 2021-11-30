@@ -20,3 +20,8 @@ function checkKeyPress(key) {
     alert(`The 'a' letter key has been pressed!`);
   }
 }
+
+window.addEventListener("scroll", () => {
+  const scrolled = window.scrollY;
+  console.log(scrolled);
+});
