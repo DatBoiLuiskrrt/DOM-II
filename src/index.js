@@ -29,3 +29,8 @@ window.addEventListener("scroll", () => {
 window.addEventListener("load", (evt) => {
   console.log("page is fully loaded");
 });
+
+const image = document.querySelector(".intro img");
+image.onclick = function () {
+  image.style.display = "none";
+};
