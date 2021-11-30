@@ -25,3 +25,7 @@ window.addEventListener("scroll", () => {
   const scrolled = window.scrollY;
   console.log(scrolled);
 });
+
+window.addEventListener("load", (evt) => {
+  console.log("page is fully loaded");
+});
