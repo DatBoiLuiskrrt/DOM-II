@@ -54,3 +54,8 @@ const link = document.querySelectorAll(".nav-link");
 link.onclick = () => {
   link.preventDefault();
 };
+
+const container = document.querySelector("body");
+container.onclick = () => {
+  container.classList.add(".newClass");
+};
