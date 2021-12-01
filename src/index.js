@@ -26,7 +26,7 @@ window.addEventListener("scroll", () => {
   console.log(scrolled);
 });
 
-window.addEventListener("load", (evt) => {
+window.addEventListener("load", () => {
   console.log("page is fully loaded");
 });
 
@@ -48,4 +48,9 @@ foot.onclick = () => {
 const thirdImg = document.querySelector(".inverse-content .img-content img");
 thirdImg.ondblclick = () => {
   thirdImg.style.border = "2px solid blue";
+};
+
+const link = document.querySelectorAll(".nav-link");
+link.onclick = () => {
+  link.preventDefault();
 };
