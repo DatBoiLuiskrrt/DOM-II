@@ -44,3 +44,8 @@ const foot = document.querySelector(".footer");
 foot.onclick = () => {
   foot.style.display = "none";
 };
+
+const thirdImg = document.querySelector(".inverse-content .img-content img");
+thirdImg.ondblclick = () => {
+  thirdImg.style.border = "2px solid blue";
+};
